@@ -23,7 +23,6 @@ gpt_telegram_bot/
 │   ├── handlers.py      # Telegram command and message handlers
 │   ├── llm.py           # OpenAI-compatible LLM client
 │   └── history.py       # in-memory per-user dialog history
-├── .env.example         # configuration template
 ├── .gitignore
 ├── .dockerignore
 ├── Dockerfile
@@ -51,10 +50,14 @@ of the dialog together with the system prompt.
 
 ### 2. Configure
 
-```bash
-cp .env.example .env
-# then fill in TG_TOKEN and LLM_API_KEY
+Create a `.env` file in the project root:
+
+```env
+TG_TOKEN=your_telegram_bot_token
+LLM_API_KEY=your_llm_api_key
 ```
+
+Optional variables can be added to the same file:
 
 | Variable        | Required | Default                          | Description                                    |
 |-----------------|----------|----------------------------------|------------------------------------------------|
