@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="README.md"><img alt="English" src="https://img.shields.io/badge/English-1f6feb?style=for-the-badge"></a>
+  <a href="README.ru.md"><img alt="Русский" src="https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-555555?style=for-the-badge"></a>
+</p>
+
 # gpt_telegram_bot
 
 A minimal Telegram bot that turns a chat with the bot into a conversation with an LLM.
@@ -28,7 +33,8 @@ gpt_telegram_bot/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-└── README.md
+├── README.md
+└── README.ru.md
 ```
 
 ## How it works
